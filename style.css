@@ -3,6 +3,14 @@ body{
     color: aliceblue;
     font-size: 21px;
 }
+.container {
+    border: 5px solid #2d6262;
+    display: flex;
+}
+
+.container > div {
+    flex: space-around;
+}
 
 h1 {
     color: aquamarine;
